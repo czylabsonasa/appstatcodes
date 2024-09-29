@@ -3,9 +3,8 @@
 clc; clear; clf;
 
 % exact computation
-% plot
-% by hand, favourable area / total area = (23^2/2 + 22^2/2)/24^2
 
+% by hand, favourable area / total area = (23^2/2 + 22^2/2)/24^2
 p_hand=(23^2/2 + 22^2/2)/24^2;
 
 % approximate computation
