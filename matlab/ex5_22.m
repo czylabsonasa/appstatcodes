@@ -4,25 +4,25 @@ tit="example 5.22\nUlysses, triple turnout, Bayes";
 
 % exact computation
 % by hand 
-% turnout weights
-p_1=[1,1,1]/3; 
-% lying weights
-p_2=1-[2/3,1/2,0];
+% weights for the possibilities
+p_B=[1,1,1]/3; 
+% conditional weights of success
+p_AB=1-[2/3,1/2,0];
 
-% Bayes theorem (weight of perfect cars from factory 4 / total weight of perfect cars)
-p_hand=p_1(1)*p_2(1)/dot(p_1,p_2);
+% Bayes theorem 
+p_hand=p_B(1)*p_AB(1)/dot(p_B,p_AB);
 
 % approximate computation
 % by simulation:
 N=100000;
 
 % simulate w/ loop
-rN=0; % it is the real N, counting only the truth telling cases
+rN=0; % it will be the real N, counting only the "success" cases
 sim=zeros(1,N);
-for road=datasample(1:3,N,"Weights",p_1)
-  if rand()<p_2(road)
+for tmp=datasample(1:3,N,"Weights",p_B)
+  if rand()<p_AB(tmp)
     rN=rN+1;
-    sim(rN)=(road==1);
+    sim(rN)=(tmp==1);
   end
 end
 
