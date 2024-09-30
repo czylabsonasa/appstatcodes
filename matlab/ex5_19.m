@@ -5,7 +5,7 @@ clc; clear; clf;
 % exact computation
 % by hand 
 % factory weights
-p_fact=[200,320,270,210]; p_=p_fact/sum(p_fact);
+p_fact=[200,320,270,210]; p_fact=p_fact/sum(p_fact);
 % ok weights
 p_ok=1-[2,5,3,1]/100;
 
@@ -40,4 +40,5 @@ yticks(yt);
 legend(["simulation", "theoretical"],"Location","northeastoutside");
 text(N,p_hand,"  p="+strip(string(rats(p_hand))));
 title(sprintf("example 5.19\n factories, cars, Bayes"));
-
+%drawnow; % uncomment this line and press ctrl+enter, and you will see several
+%simulation results one by one
