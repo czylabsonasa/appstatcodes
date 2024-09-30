@@ -1,4 +1,4 @@
-% example 3.17, lottery, hit at least 3
+% exercise 3.17, lottery, hit at least 3
 % for it is slow for large N, it is better to plot the partial results to
 % see the process 
 % --> see: help drawnow
@@ -42,6 +42,6 @@ end
 
 legend(["simulation", "theoretical"],"Location","northeastoutside");
 text(N,p_hand,"  p="+strip(string(rats(p_hand))));
-title(sprintf("example 3.17 5 from 90 lottery \n hit at least 3"));
+title(sprintf("exercise 3.17 5 from 90 lottery \n hit at least 3"));
 
 hold off;

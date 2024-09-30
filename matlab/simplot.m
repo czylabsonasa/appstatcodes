@@ -1,12 +1,15 @@
-function simplot(sim, p_hand, tit)
+function simplot(sim, tline, tit)
   N=length(sim);
-  plot(1:N, sim, ".", [1,N],[p_hand, p_hand],"r");
-  axis([1,N,0.7*p_hand, 1.3*p_hand]);
-  yt=(0.7:0.05:1.3)*p_hand;
+  plot(1:N, sim, ".", [1,N],[tline, tline],"r");
+  
+  % handle negative tline
+  tmp=sort([0.7*tline, 1.3*tline]);
+  axis([1,N,tmp]);
+  
+  yt=sort((0.7:0.05:1.3)*tline);
   yticks(yt);
   
   legend(["simulation", "theoretical"],"Location","northeastoutside");
-  text(N,p_hand,"  p="+strip(string(rats(p_hand))));
+  text(N,tline,"  p="+strip(string(rats(tline))));
   title(sprintf(tit));
-  drawnow;
 end

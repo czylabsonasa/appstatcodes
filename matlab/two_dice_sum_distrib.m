@@ -28,4 +28,4 @@ hold on;
 plot(2:12,d_sim, "r*")
 
 legend(["theoretical","simulation"],"Location","northeastoutside");
-title(sprintf("example X\n distribution of the sum of two dice"));
+title(sprintf("exercise X\n distribution of the sum of two dice"));

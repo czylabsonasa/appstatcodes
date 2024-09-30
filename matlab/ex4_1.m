@@ -1,4 +1,4 @@
-% example 4.1, square w/ inscribed circle - shot outside the circle
+% exercise 4.1, square w/ inscribed circle - shot outside the circle
 
 clc; clear; clf;
 
@@ -20,5 +20,5 @@ yticks(yt);
 
 legend(["simulation", "theoretical"],"Location","northeastoutside");
 text(N,p_hand,"  p="+strip(string(rats(p_hand))));
-title(sprintf("example 4.1\n square w/ inscribed circle - shot outside the circle"));
+title(sprintf("exercise 4.1\n square w/ inscribed circle - shot outside the circle"));
 

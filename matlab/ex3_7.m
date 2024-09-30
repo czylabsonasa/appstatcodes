@@ -1,4 +1,4 @@
-% example 3.7, women, men, round table
+% exercise 3.7, women, men, round table
 
 clc; clear; clf;
 
@@ -29,4 +29,4 @@ yt=(0.7:0.05:1.3)*p_hand;
 yticks(yt);
 text(N,p_hand,"  p="+strip(string(rats(p_hand))));
 legend(["simulation", "theoretical"],"Location","northeastoutside");
-title(sprintf("example 3.7 round table\n 5 women, 5 men"));
+title(sprintf("exercise 3.7 round table\n 5 women, 5 men"));

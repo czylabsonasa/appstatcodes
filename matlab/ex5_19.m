@@ -1,4 +1,4 @@
-% example 5.19 factories, cars, Bayes
+% exercise 5.19 factories, cars, Bayes
 
 clc; clear; clf;
 
@@ -39,6 +39,6 @@ yticks(yt);
 
 legend(["simulation", "theoretical"],"Location","northeastoutside");
 text(N,p_hand,"  p="+strip(string(rats(p_hand))));
-title(sprintf("example 5.19\n factories, cars, Bayes"));
+title(sprintf("exercise 5.19\n factories, cars, Bayes"));
 %drawnow; % uncomment this line and press ctrl+enter, and you will see several
 %simulation results one by one

@@ -1,4 +1,4 @@
-% example 3.1
+% exercise 3.1
 
 clc; clear; clf;
 
@@ -23,4 +23,4 @@ yt=(0.7:0.05:1.3)*p_hand;
 yticks(yt);
 text(N,p_hand,"  p="+strip(string(rats(p_hand))));
 legend(["simulation", "theoretical"],"Location","northeastoutside");
-title("example 3.1 two dice\n the sum is 8");
+title("exercise 3.1 two dice\n the sum is 8");

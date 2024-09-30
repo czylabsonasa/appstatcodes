@@ -1,4 +1,4 @@
-% example 3.14b, with replacement
+% exercise 3.14b, with replacement
 
 clc; clear; clf;
 
@@ -30,4 +30,4 @@ yt=(0.7:0.05:1.3)*p_hand;
 yticks(yt);
 text(N,p_hand,"  p="+strip(string(rats(p_hand))));
 legend(["simulation", "theoretical"],"Location","northeastoutside");
-title(sprintf("example 3.14b urn\n 20 red, 30 white, 10 chosen with replacement. \n got 4 reds."));
+title(sprintf("exercise 3.14b urn\n 20 red, 30 white, 10 chosen with replacement. \n got 4 reds."));

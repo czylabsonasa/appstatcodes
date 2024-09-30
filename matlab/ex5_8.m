@@ -1,4 +1,4 @@
-% example 5.8, points from a square, x,y<0.5, given |x-y|<0.5
+% exercise 5.8, points from a square, x,y<0.5, given |x-y|<0.5
 
 clc; clear; clf;
 
@@ -28,5 +28,5 @@ yticks(yt);
 
 legend(["simulation", "theoretical"],"Location","northeastoutside");
 text(N,p_hand,"  p="+strip(string(rats(p_hand))));
-title(sprintf("example 5.8\n points from a square, x,y<0.5, given that |x-y|<0.5"));
+title(sprintf("exercise 5.8\n points from a square, x,y<0.5, given that |x-y|<0.5"));
 

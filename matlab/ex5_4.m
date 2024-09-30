@@ -1,4 +1,4 @@
-% example 5.4, two dice, the sum is 7, given the sum is odd
+% exercise 5.4, two dice, the sum is 7, given the sum is odd
 
 clc; clear; clf;
 
@@ -25,5 +25,5 @@ yticks(yt);
 
 legend(["simulation", "theoretical"],"Location","northeastoutside");
 text(N,p_hand,"  p="+strip(string(rats(p_hand))));
-title(sprintf("example 5.4\n two dice, the sum is 7, given the sum is odd"));
+title(sprintf("exercise 5.4\n two dice, the sum is 7, given the sum is odd"));
 

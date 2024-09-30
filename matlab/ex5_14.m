@@ -1,4 +1,4 @@
-% example 5.14, envelopes, winning cards, law of total probability
+% exercise 5.14, envelopes, winning cards, law of total probability
 
 clc; clear; clf;
 
@@ -35,5 +35,5 @@ yticks(yt);
 
 legend(["simulation", "theoretical"],"Location","northeastoutside");
 text(N,p_hand,"  p="+strip(string(rats(p_hand))));
-title(sprintf("example 5.14\n envelopes, winning cards, law of total probability"));
+title(sprintf("exercise 5.14\n envelopes, winning cards, law of total probability"));
 

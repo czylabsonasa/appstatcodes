@@ -1,4 +1,4 @@
-% example 5.5, two dice, at least one six, given they are different
+% exercise 5.5, two dice, at least one six, given they are different
 
 clc; clear; clf;
 
@@ -23,5 +23,5 @@ yticks(yt);
 
 legend(["simulation", "theoretical"],"Location","northeastoutside");
 text(N,p_hand,"  p="+strip(string(rats(p_hand))));
-title(sprintf("example 5.5\n two dice, at least one six, given they are different"));
+title(sprintf("exercise 5.5\n two dice, at least one six, given they are different"));
 

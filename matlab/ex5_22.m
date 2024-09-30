@@ -1,6 +1,6 @@
 clc; clear; clf;
 
-tit="example 5.22\nUlysses, triple turnout, Bayes";
+tit="exercise 5.22\nUlysses, triple turnout, Bayes";
 
 % exact computation
 % by hand 
@@ -30,4 +30,4 @@ end
 sim=sim(1:rN); N=rN;
 sim=cumsum(sim) ./ (1:N);
 
-simplot(sim,p_hand,tit); %drawnow included
+simplot(sim,p_hand,tit); %drawnow is included

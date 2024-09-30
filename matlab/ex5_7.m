@@ -1,4 +1,4 @@
-% example 5.7, families w/ two children, there is a boy, given that there is a girl
+% exercise 5.7, families w/ two children, there is a boy, given that there is a girl
 
 clc; clear; clf;
 
@@ -28,5 +28,5 @@ yticks(yt);
 
 legend(["simulation", "theoretical"],"Location","northeastoutside");
 text(N,p_hand,"  p="+strip(string(rats(p_hand))));
-title(sprintf("example 5.7\n families w/ two children, there is a boy, given that there is a girl"));
+title(sprintf("exercise 5.7\n families w/ two children, there is a boy, given that there is a girl"));
 

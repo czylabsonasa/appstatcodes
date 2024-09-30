@@ -1,4 +1,4 @@
-% example 4.2, randomly broken stick + a 0.5 length one, triangle
+% exercise 4.2, randomly broken stick + a 0.5 length one, triangle
 
 clc; clear; clf;
 
@@ -25,5 +25,5 @@ yticks(yt);
 
 legend(["simulation", "theoretical"],"Location","northeastoutside");
 text(N,p_hand,"  p="+strip(string(rats(p_hand))));
-title(sprintf("example 4.2\n randomly broken stick + a 0.5 length one, triangle"));
+title(sprintf("exercise 4.2\n randomly broken stick + a 0.5 length one, triangle"));
 

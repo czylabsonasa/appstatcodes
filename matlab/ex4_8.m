@@ -1,4 +1,4 @@
-% example 4.8, two ships, none of them waits
+% exercise 4.8, two ships, none of them waits
 
 clc; clear; clf;
 
@@ -22,5 +22,5 @@ yticks(yt);
 
 legend(["simulation", "theoretical"],"Location","northeastoutside");
 text(N,p_hand,"  p="+strip(string(rats(p_hand))));
-title(sprintf("example 4.8\n two ships, none of them waits"));
+title(sprintf("exercise 4.8\n two ships, none of them waits"));
 
