@@ -1,3 +1,3 @@
-# appstatcodes
+# codestore
 
-- the numbering is the same as in the slides.
+- various education related codes
