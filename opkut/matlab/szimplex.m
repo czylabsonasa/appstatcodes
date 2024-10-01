@@ -44,8 +44,12 @@ function [mutat, csere, hanyados]=szimplex(obj,lhs,rhs,benn,kinn)
     assert(jk<0);
     jk=-jk;
 
+    % cserék
     benn(jb)=xk;
+    loc(xk)=jb;
+    
     kinn(jk)=xb;
+    loc(xb)=-jk;
 
     piv=mtx(jb,jk);
     assert(~(piv==0));
